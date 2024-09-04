@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <!-- header Section -- page title and navigation -->
+    <header>
+        <h1>Contact Me</h1>
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="ContactMe.html">Contact Me</a> <!-- link to contact me page -->
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a> <!-- link to portfolio page -->
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Section for the Contact Form -->
+    <main>
+    <section>
+        <h2>Contact Form</h2> 
+        <form> <!-- Contact form  -->
+           
+            <div>
+                <label for="visitorName">Visitor Name:</label><br>
+                <input type="text" id="visitorName" name="visitorName"><br>
+            </div>
+
+    
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+            </div>
+
+            <div>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+            </div>
+
+            <!-- Gender Radio Buttons -->
+            <div>
+                <label>Gender:</label><br>
+                <div>
+                    
+              <input type="radio" id="male" name="gender" value="male" checked> 
+                <label for="male"> Male </label>&nbsp;&nbsp;
+                   
+                 <input type="radio" id="female" name="gender" value="female"> 
+                <label for="female"> Female </label>
+                </div><br>
+            </div>
+
+          
+            <div>
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="date"><br>
+            </div>
+
+        
+            <div>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="6" cols="40"></textarea><br>
+            </div>
+
+          
+            <button class="button" type="submit">Submit</button>
+        </form> 
+    </section>
+</main>
+    <!-- footer Section -->
+    <footer>
+        <p>Designed by Mohammed Dwaikat</p>
+    </footer>
+</body>
+
+</html>
